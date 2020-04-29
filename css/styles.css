@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+margin: 50px auto 0 auto;
+line-height: 1;
+font-family: 'Bangers', cursive;
+color: #6495ED;
+font-size: 10rem;
+}
+
+h2 {
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem;
+  color: #6495ED;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  color: #00A000;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 10px;
+  width: 5%;
+  color: #87CEFA;
+}
+
+p {
+color: #40514E;
+}
+
+a {
+color: #87CEFA;
+margin: 10px 10px;
+text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #F8F8FF;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.bottom-container {
+  background-color: #808080;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.skill-row-1 {
+  line-height: 2;
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+}
+
+.skill-row-2 {
+  line-height: 2;
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: right;
+}
+
+.web {
+  text-decoration: underline;
+}
+/* this isnt used now but was origially used for the <spam> element to underline web in web developer */
+
+.top-cloud {
+  position: absolute;
+  right: 600px;
+  top: 50px;
+  width: 150px;
+  height: auto;
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 500px;
+  bottom: 450px;
+  width: 150px;
+  height: auto;
+}
+
+.mountain {
+  position: relative;
+}
+
+.sam1-img {
+  width: 20%;
+  height: auto;
+}
+
+.footer-link {
+  padding: 5px;
+}
+
+.easy2health-img {
+  width: 25%;
+  height: auto;
+  float: left;
+  margin: 25px 30px
+}
+/* clear-left etc is the oposite to float and will move anything over to the left */
+
+.web-developer-img {
+  width: 25%;
+  height: auto;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+	background-color:#6495ED;
+	border-radius:8px;
+	border:0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Lato', sans-serif;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #2f6627;
+  margin-top: 20px;
+}
+.btn:hover {
+	background-color:#87CEFA;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.copy-right {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding-top: 20px;
+}
